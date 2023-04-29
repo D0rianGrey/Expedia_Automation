@@ -1,4 +1,4 @@
-package selenide;
+package expedia.selenide;
 
 import org.testng.annotations.Test;
 import utils.BaseTest;
