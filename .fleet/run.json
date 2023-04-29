@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "python-tests",
+            "name": "Python-tests configuration",
+            "testFramework": "pytest",
+            "target": "Expedia_Automation_Python/selenium/firstTest",
+            "arguments": ["-v", "-s"],
+        },
+        
+    ]
+}

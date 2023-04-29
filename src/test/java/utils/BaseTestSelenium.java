@@ -14,7 +14,7 @@ public class BaseTestSelenium {
         System.out.println("Before each test");
         BrowserDriverFactory browserDriverFactory = new BrowserDriverFactory(getConstantsProperties().getProperty("BROWSER"));
         driver = browserDriverFactory.createDriver();
-        driver.get(getConstantsProperties().getProperty("URL"));
+        driver.get(getConstantsProperties().getProperty("URL_EXPEDIA"));
     }
 
     @AfterEach

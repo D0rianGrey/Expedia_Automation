@@ -1,0 +1,9 @@
+{
+  "type": "python-tests",
+  "name": "main",
+  "arguments": [
+    "firstTest.py",
+    "-s",
+    "-v"
+  ]
+}
