@@ -41,3 +41,4 @@ build/
 /Expedia_Automation_JavaScript/package-lock.json
 /Expedia_Automation_Python/selenium/allureresult/
 /Expedia_Automation_Python/.pytest_cache/
+/.pytest_cache/
