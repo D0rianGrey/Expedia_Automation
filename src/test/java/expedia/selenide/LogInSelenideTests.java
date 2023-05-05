@@ -4,14 +4,14 @@ import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.Test;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 import static utils.BaseTest.getConstantsProperties;
 
-public class LogInTestSelenide {
+public class LogInSelenideTests {
 
     @Description("Log in test")
     @Epic("EPIC 1")
@@ -21,7 +21,6 @@ public class LogInTestSelenide {
     @Owner("Eugene Vakerin")
     @Severity(SeverityLevel.CRITICAL)
     @Story("Story Value")
-    @TmsLink("https://www.expedia.com/?=one-key-onboarding-dialog")
     @Test
     public void logInTest() {
 
