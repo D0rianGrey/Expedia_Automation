@@ -42,3 +42,6 @@ build/
 /Expedia_Automation_Python/selenium/allureresult/
 /Expedia_Automation_Python/.pytest_cache/
 /.pytest_cache/
+/.allure/
+/allure-report/
+/allure-results/
