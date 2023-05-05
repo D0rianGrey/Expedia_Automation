@@ -25,4 +25,4 @@ jobs:
         uses: Xotabu4/selenoid-github-action@v2
 
       - name: Build with Maven
-        run: mvn clean test
+        run: mvn clean test -Dselenide.remote=http://localhost:4444/wd/hub
