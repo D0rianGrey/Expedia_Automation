@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 05 17:07:58 GMT 2023","Fri May 05 17:08:05 GMT 2023","6317","","expedia.selenide.LogInSelenideTests","","expedia.selenide.LogInSelenideTests","logInTest","logInTest()","Log in test"
