@@ -45,3 +45,5 @@ build/
 /.allure/
 /allure-report/
 /allure-results/
+/trace/
+/trace.zip
