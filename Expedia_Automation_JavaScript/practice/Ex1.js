@@ -1,9 +1,33 @@
-function foo(number1) {
-    const a = 5 + number1;
-    return function (number2) {
-        return a * number2;
+class User {
+    #name;
+    #age;
+
+    constructor(name, age) {
+        this.#name = name;
+        this.#age = age;
+    }
+
+    get getName() {
+        return this.#name;
+    }
+
+    get getAge() {
+        return this.#age;
+    }
+
+    test() {
+        console.log("Hello");
+
+        return this;
+    }
+
+    static test2(){
+        console.log("Hello2");
     }
 }
+
+
+
 
 
 

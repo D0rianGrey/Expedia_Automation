@@ -23,10 +23,13 @@
     "testcafe": "^2.5.1-rc.1",
     "pactum": "^3.0.0",
     "supertest": "^6.3.3",
-    "node-lombok": "^1.1.1"
+    "node-lombok": "^1.1.1",
+    "node-fetch": "^2.2.0",
+    "xhr2": "^0.2.1"
   },
   "scripts": {
     "test": "jest",
     "wdio": "wdio run ./wdio.conf.ts"
-  }
+  },
+  "type": "module"
 }
