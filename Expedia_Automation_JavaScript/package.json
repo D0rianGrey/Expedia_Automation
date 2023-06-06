@@ -30,6 +30,5 @@
   "scripts": {
     "test": "jest",
     "wdio": "wdio run ./wdio.conf.ts"
-  },
-  "type": "module"
+  }
 }
