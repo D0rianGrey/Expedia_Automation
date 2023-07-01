@@ -46,3 +46,4 @@ build/
 /allure-results/
 /trace/
 /trace.zip
+/Hibernate/.allure/
